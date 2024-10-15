@@ -1,6 +1,7 @@
 <template>
   <PersonnalInfo />
   <About />
+  <Abilities />
 </template>
 
 <script setup lang="ts">

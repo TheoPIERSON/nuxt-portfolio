@@ -1,6 +1,6 @@
 <template>
   <header class="grid place-items-center gap-2">
-    <h1 class="text-5xl mt-10 text-center">
+    <h1 class="text-5xl mt-24 text-center">
       Développeur Web - <span class="font-CourierPrime text-6xl font-bold">Freelance</span>
     </h1>
     <h2 class="text-4xl text-center mt-2">Developpeur Angular | Vue | Springboot à Lille</h2>
