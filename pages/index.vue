@@ -2,6 +2,7 @@
   <PersonnalInfo />
   <About />
   <Abilities />
+  <Portfolio />
 </template>
 
 <script setup lang="ts">
