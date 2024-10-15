@@ -36,7 +36,7 @@ export default {
       const buttons = {
         ".btn": {
           color: "#fff",
-          padding: "0.5rem 1rem",
+          padding: "0.5rem 0.2rem",
           borderBottom: "1px solid #059669",
 
           "&:hover": {

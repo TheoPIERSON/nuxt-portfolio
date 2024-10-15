@@ -25,13 +25,13 @@
           <NuxtLink @click="toggleNav" to="/" class="btn duration-200"> Accueil </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="toggleNav" to="/about" class="btn duration-200"> Infos </NuxtLink>
+          <NuxtLink @click="toggleNav" to="/about" class="btn duration-200"> Compétences </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="toggleNav" to="/" class="btn duration-200"> Athlètes </NuxtLink>
+          <NuxtLink @click="toggleNav" to="/" class="btn duration-200"> Portfolio </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="toggleNav" to="/about" class="btn duration-200"> Compétitions </NuxtLink>
+          <NuxtLink @click="toggleNav" to="/about" class="btn duration-200"> Contact </NuxtLink>
         </li>
       </ul>
     </nav>
