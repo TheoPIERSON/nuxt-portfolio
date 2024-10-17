@@ -1,5 +1,5 @@
 <template>
-  <section class="grid place-items-center mb-10">
+  <section id="abilities" class="grid place-items-center mb-10">
     <h2 class="text-emerald-500 text-4xl text-center mt-2 font-semibold m-2 mb-10">Mes Compétences</h2>
     <div class="md:grid grid-cols-2 w-3/4">
       <h3 class="text-2xl font-semibold m-1">Développement Frontend</h3>

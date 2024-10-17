@@ -1,5 +1,5 @@
 <template>
-  <header class="grid place-items-center gap-2">
+  <header id="header" class="grid place-items-center gap-2 pt-20">
     <h1 class="text-5xl mt-24 text-center">
       Développeur Web - <span class="font-CourierPrime text-6xl font-bold">Freelance</span>
     </h1>
