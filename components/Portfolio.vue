@@ -7,13 +7,13 @@
       </p>
       <div class="w-full grid md:grid-cols-2 gap-4 p-6">
         <div class="relative md:w-[400px]">
-          <NuxtPicture
+          <NuxtImg
             src="onyxinstitut.png"
             width="400px"
             height="220px"
             class="relative top-0 left-0 w-screen md:p-0 md:w-full transition-opacity duration-300"
           />
-          <NuxtPicture
+          <NuxtImg
             src="onyx2.png"
             width="400px"
             height="220px"
