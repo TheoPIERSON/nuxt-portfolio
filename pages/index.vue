@@ -3,6 +3,7 @@
   <About />
   <Abilities />
   <Portfolio />
+  <Contact />
 </template>
 
 <script setup lang="ts">

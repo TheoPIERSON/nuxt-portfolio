@@ -2,8 +2,8 @@
   <section>
     <h2 class="text-emerald-500 text-4xl text-center mt-2 font-semibold m-2 mb-10">Mon Portfolio</h2>
     <div class="font-CourierPrime grid md:grid-cols-[1fr,2fr]">
-      <p class="text-center w-screen md:w-1/2 text-neutral-300">
-        J'ai réalisé ce portfolio essentiellement avec Nuxt, Angular ou NextJs
+      <p class="text-start w-screen md:w-1/2 text-neutral-300">
+        J'ai réalisé ce portfolio essentiellement avec Nuxt, Angular ou NextJs.
       </p>
       <div class="w-full grid md:grid-cols-2 gap-4 p-6">
         <div class="relative md:w-[400px]">
