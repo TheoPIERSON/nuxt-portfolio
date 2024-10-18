@@ -2,7 +2,7 @@
   <section id="portfolio">
     <h2 class="text-emerald-500 text-4xl text-center mt-2 font-semibold m-2 mb-10">Mon Portfolio</h2>
     <div class="font-CourierPrime grid md:grid-cols-[1fr,2fr]">
-      <p class="text-start w-screen md:w-1/2 text-neutral-300">
+      <p class="text-start w-screen md:w-1/2 text-neutral-300 md:mt-6">
         J'ai réalisé ce portfolio essentiellement avec Nuxt, Angular ou NextJs.
       </p>
       <div class="w-full grid md:grid-cols-2 gap-4 p-6" data-aos="fade-left">
@@ -21,7 +21,9 @@
             class="absolute top-0 left-0 w-screen md:p-0 md:w-full opacity-0 hover:opacity-100 transition-opacity duration-300"
           />
 
-          <NuxtLink to="https://theopierson.fr" class="text-center border-b border-neutral-400">Onyx Insitut</NuxtLink>
+          <NuxtLink to="https://onyx-institut.com/" class="text-center border-b border-neutral-400"
+            >Onyx Insitut</NuxtLink
+          >
           <p class="flex">
             <NuxtPicture src="angular-icon.svg" width="30px" class="m-1" /><NuxtPicture
               src="spring-icon.svg"
@@ -50,7 +52,9 @@
             class="absolute top-0 left-0 w-screen md:p-0 md:w-full opacity-0 hover:opacity-100 transition-opacity duration-300"
           />
 
-          <NuxtLink to="https://theopierson.fr" class="text-center border-b border-neutral-400">Do Bronx MMA</NuxtLink>
+          <NuxtLink to="https://do-bronx-mma.vercel.app/" class="text-center border-b border-neutral-400"
+            >Do Bronx MMA</NuxtLink
+          >
           <p class="flex">
             <NuxtPicture src="nuxt-icon.svg" width="30px" class="m-1" />
             <NuxtPicture src="typescript-icon.svg" width="30px" class="m-1" />
@@ -69,7 +73,9 @@
             height="220px"
             class="absolute top-0 left-0 w-screen md:p-0 md:w-full opacity-0 hover:opacity-100 transition-opacity duration-300"
           />
-          <NuxtLink to="https://theopierson.fr" class="text-center border-b border-neutral-400">Chef Pro 360</NuxtLink>
+          <NuxtLink to="https://chef-pro-360.vercel.app/" class="text-center border-b border-neutral-400"
+            >Chef Pro 360</NuxtLink
+          >
           <p class="flex">
             <NuxtPicture src="nextjs-icon.svg" width="30px" class="m-1" /><NuxtPicture
               src="typescript-icon.svg"
@@ -92,7 +98,7 @@
             class="absolute top-0 left-0 w-screen md:p-0 md:w-full opacity-0 hover:opacity-100 transition-opacity duration-300"
           />
 
-          <NuxtLink to="https://theopierson.fr" class="text-center border-b border-neutral-400"
+          <NuxtLink to="https://mighty-coaching.vercel.app/" class="text-center border-b border-neutral-400"
             >Mighty Coaching</NuxtLink
           >
           <p class="flex">
