@@ -5,7 +5,7 @@
       <p class="text-start w-screen md:w-1/2 text-neutral-300">
         J'ai réalisé ce portfolio essentiellement avec Nuxt, Angular ou NextJs.
       </p>
-      <div class="w-full grid md:grid-cols-2 gap-4 p-6">
+      <div class="w-full grid md:grid-cols-2 gap-4 p-6" data-aos="fade-left">
         <div class="relative md:w-[400px]">
           <NuxtImg
             alt="Capture d'écran du site Onyx Institut"

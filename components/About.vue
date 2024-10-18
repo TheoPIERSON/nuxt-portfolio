@@ -2,7 +2,7 @@
   <h2 class="text-emerald-500 text-4xl text-center mt-10 md:mt-32 font-semibold m-2">Mon profil</h2>
 
   <section class="grid md:flex place-items-center">
-    <div class="font-CourierPrime p-4 md:p-10 md:w-4/5">
+    <div class="font-CourierPrime p-4 md:p-10 md:w-4/5" id="content" data-aos="fade-right">
       <p class="leading-tight">
         En tant que développeur web, j'ai acquis une expérience significative au fil des projets, toujours animé par la
         volonté de répondre aux besoins spécifiques de mes clients et de leur offrir des solutions sur mesure. Mon
@@ -24,6 +24,8 @@
       </p>
     </div>
     <NuxtImg
+      data-aos="fade-left"
+      id="profilePic"
       class="m-2 md:m-20"
       src="profile-pic.png"
       alt="photo de Theo Pierson Dévelppeur Web à Lestrem/Lille"

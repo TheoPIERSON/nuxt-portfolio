@@ -14,11 +14,13 @@
     "@nuxt/image": "^1.8.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "aos": "^2.3.4",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@iconify-json/majesticons": "^1.2.1"
+    "@iconify-json/majesticons": "^1.2.1",
+    "@types/aos": "^3.0.7"
   }
 }

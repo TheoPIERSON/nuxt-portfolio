@@ -3,7 +3,7 @@
     <h2 class="text-emerald-500 text-4xl text-center mt-2 font-semibold m-2 mb-10">Mes Compétences</h2>
     <div class="md:grid grid-cols-2 w-3/4">
       <h3 class="text-2xl font-semibold m-1">Développement Frontend</h3>
-      <div class="md:grid grid-cols-2 font-CourierPrime" id="cards">
+      <div class="md:grid grid-cols-2 font-CourierPrime" id="cards" data-aos="fade-left">
         <div class="grid place-items-center border-b border-neutral-400 p-4 w-3/4 mx-auto">
           <NuxtPicture src="angular-icon.svg" alt="logo Angular" width="50px" /><span>Angular</span>
           <p>Framework Frontend - Expérience: Depuis 2023</p>
@@ -26,7 +26,7 @@
         </div>
       </div>
       <h3 class="text-2xl font-semibold m-1 w-5/6">Développement Backend et base de données</h3>
-      <div class="md:grid grid-cols-2 font-CourierPrime" id="cards">
+      <div class="md:grid grid-cols-2 font-CourierPrime" id="cards" data-aos="fade-left">
         <div class="grid place-items-center border-b border-neutral-400 p-4 w-3/4 mx-auto">
           <NuxtPicture src="java.svg" alt="logo java" width="50px" /><span>Java</span>
           <p>Langage de programation - Expérience: Depuis 2023</p>
