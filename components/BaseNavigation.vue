@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen font-CourierPrime">
-    <nav class="bg-neutral-900 w-full px-8 py-6 mx-auto md:flex md:justify-between md:items-center fixed z-10">
+    <nav class="bg-neutral-900 w-screen px-4 py-6 mx-auto md:flex md:justify-between md:items-center fixed z-10">
       <div class="flex items-center justify-between">
         <NuxtLink to="/" class="text-xl text-emerald-500 flex items-center"> Theo PIERSON </NuxtLink>
         <!-- Mobile menu button -->
