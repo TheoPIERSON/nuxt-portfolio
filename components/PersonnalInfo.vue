@@ -3,9 +3,7 @@
     <h1 :class="{ 'fade-in': isVisible }" class="text-5xl mt-24 text-center">
       Développeur Web - <span class="font-CourierPrime text-6xl font-bold">Freelance</span>
     </h1>
-    <h2 :class="{ 'fade-in': isVisible }" class="text-4xl text-center mt-2">
-      Développeur Angular | Vue | Springboot à Lille
-    </h2>
+    <h2 :class="{ 'fade-in': isVisible }" class="text-4xl text-center mt-2">Développeur Java | TypeScript à Lille</h2>
 
     <h3 :class="{ 'fade-in': isVisible }" class="text-4xl flex justify-center items-center mt-2">
       <Icon name="majesticons:map-marker" />Lille | Lestrem
