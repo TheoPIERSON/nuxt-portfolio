@@ -15,8 +15,19 @@
       Prêt à vous aider à résoudre votre problème !
     </p>
     <div :class="{ 'fade-in-delayed': isVisible }" class="flex m-2">
-      <button class="btn-hover m-2 p-1 border-b-2 border-emerald-800 font-CourierPrime">Voir mes créations</button>
-      <button class="btn-hover m-2 p-1 border-b-2 border-emerald-800 font-CourierPrime">Me contacter</button>
+      <a
+        class="btn-hover m-2 p-1 border-b-2 border-emerald-800 font-CourierPrime"
+        @click.prevent="scrollToSection('portfolio')"
+        href="#portfolio"
+      >
+        Voir mes créations
+      </a>
+      <a
+        class="btn-hover m-2 p-1 border-b-2 border-emerald-800 font-CourierPrime"
+        @click.prevent="scrollToSection('contact')"
+        href="#contact"
+        >Me contacter</a
+      >
     </div>
   </header>
 </template>
@@ -32,6 +43,20 @@ onMounted(() => {
     isVisible.value = true;
   }, 200); // Délai avant de déclencher l'animation
 });
+const scrollToSection = (sectionId: string): void => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    // Calculer la position de la section moins l'offset
+    const offset = -100; // Ajuste cette valeur selon tes besoins
+    const sectionPosition = section.getBoundingClientRect().top + window.pageYOffset + offset;
+
+    // Utiliser scrollTo pour défiler vers la position avec l'offset et un défilement fluide
+    window.scrollTo({
+      top: sectionPosition,
+      behavior: "smooth",
+    });
+  }
+};
 </script>
 
 <style scoped>
