@@ -65,6 +65,25 @@
             />
           </p>
         </div>
+        <div class="relative md:w-[400px]" id="Ufc-Vs">
+          <NuxtPicture
+            src="ufc-vs.png"
+            alt="Capture d'écran du site ufc versus, un mini jeu sur les comabattants UFC"
+            width="400px"
+            height="220px"
+            class="relative top-0 left-0 w-screen md:p-0 md:w-full transition-opacity duration-300"
+          />
+
+          <NuxtLink to="https://ufc-vs.vercel.app/" class="text-center border-b border-neutral-400">UFC vs</NuxtLink>
+          <p class="flex">
+            <NuxtPicture alt="Icone NuxtJS" src="nuxt-icon.svg" width="30px" class="m-1" /><NuxtPicture
+              alt="Icone TypeScript"
+              src="typescript-icon.svg"
+              width="30px"
+              class="m-1"
+            />
+          </p>
+        </div>
         <div class="relative md:w-[400px]" id="DoBronxMMA">
           <!-- Première image visible par défaut -->
           <NuxtPicture
