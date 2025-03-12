@@ -1,5 +1,6 @@
 <template>
-  <PersonnalInfo />
+  <Home />
+  <ScrollDownButton />
   <About />
   <Abilities />
   <Portfolio />

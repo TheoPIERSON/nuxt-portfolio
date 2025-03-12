@@ -1,35 +1,30 @@
 <template>
-  <header id="header" class="grid place-items-center gap-2 pt-20">
-    <h1 :class="{ 'fade-in': isVisible }" class="text-5xl mt-24 text-center">
-      Développeur Web - <span class="font-CourierPrime text-6xl font-bold">Freelance</span>
+  <main id="header" class="grid gap-3 pt-20 md:mb-20">
+    <h1 :class="{ 'fade-in': isVisible }" class="text-5xl md:text-6xl">
+      Hello, moi c'est Theo <Icon name="la:hand-peace" />
     </h1>
-    <h2 :class="{ 'fade-in': isVisible }" class="text-4xl text-center mt-2">Développeur Java | TypeScript à Lille</h2>
+    <h2 :class="{ 'fade-in': isVisible }" class="text-2xl md:text-4xl mt-10">------ Développeur Full Stack</h2>
+    <p :class="{ 'fade-in-delayed': isVisible }" class="text-lg mt-10">
+      Salut, je suis un développeur Full Stack basé en France et <br />
+      je suis très passionné et dédié à mon travail.
+    </p>
 
-    <h3 :class="{ 'fade-in': isVisible }" class="text-4xl flex justify-center items-center mt-2">
-      <Icon name="majesticons:map-marker" />Lille | Lestrem
-    </h3>
-    <p :class="{ 'fade-in-delayed': isVisible }" class="font-CourierPrime text-xl mt-10 text-center">
-      Création d'application web, site vitrine, landing page.
-    </p>
-    <p :class="{ 'fade-in-delayed': isVisible }" class="font-CourierPrime text-xl text-center">
-      Prêt à vous aider à résoudre votre problème !
-    </p>
-    <div :class="{ 'fade-in-delayed': isVisible }" class="flex m-2">
+    <div :class="{ 'fade-in-delayed': isVisible }" class="flex mt-10">
       <a
-        class="btn-hover m-2 p-1 border-b-2 border-emerald-800 font-CourierPrime"
+        class="bg-zinc-800 p-4 px-5 text-xl text-white rounded-lg mr-8 hover:bg-white hover:text-black border-2 border-black"
         @click.prevent="scrollToSection('portfolio')"
         href="#portfolio"
       >
-        Voir mes créations
+        Infos de contact
       </a>
       <a
-        class="btn-hover m-2 p-1 border-b-2 border-emerald-800 font-CourierPrime"
+        class="bg-zinc-800 p-4 px-5 text-xl text-white rounded-lg hover:bg-white hover:text-black border-2 border-black"
         @click.prevent="scrollToSection('contact')"
         href="#contact"
-        >Me contacter</a
+        >Télécharger CV</a
       >
     </div>
-  </header>
+  </main>
 </template>
 
 <script setup lang="ts">
@@ -60,34 +55,6 @@ const scrollToSection = (sectionId: string): void => {
 </script>
 
 <style scoped>
-.btn-hover {
-  position: relative;
-  overflow: hidden;
-  background: transparent;
-  z-index: 1;
-  transition: color 0.4s ease;
-}
-
-.btn-hover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: #04784e; /* Couleur vert émeraude */
-  z-index: -1;
-  transition: left 0.4s ease;
-}
-
-.btn-hover:hover::before {
-  left: 0;
-}
-
-.btn-hover:hover {
-  color: white;
-}
-
 .fade-in {
   opacity: 1;
   transform: translateY(0);

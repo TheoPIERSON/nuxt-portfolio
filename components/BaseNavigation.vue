@@ -1,12 +1,12 @@
 <template>
-  <div class="w-screen font-CourierPrime">
-    <nav class="bg-neutral-900 w-screen px-4 py-6 mx-auto md:flex md:justify-between md:items-center fixed z-10">
+  <section class="w-full">
+    <nav class="w-full py-10 md:py-16 mx-auto md:flex md:justify-between md:items-center z-10">
       <div class="flex items-center justify-between">
-        <NuxtLink to="/" class="text-xl text-emerald-500 flex items-center"> Theo PIERSON </NuxtLink>
+        <NuxtLink to="/" class="text-xl flex items-center font-medium"> Theo PIERSON </NuxtLink>
         <!-- Mobile menu button -->
         <div @click="toggleNav" class="flex md:hidden">
-          <button type="button" class="text-gray-100 hover:text-gray-400 focus:outline-none focus:text-gray-400">
-            <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current mr-4">
+          <button type="button" class="focus:outline-none">
+            <svg viewBox="0 0 24 24" class="w-8 h-6 fill-current">
               <path
                 fill-rule="evenodd"
                 d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2z"
@@ -19,46 +19,36 @@
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-4 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-md"
+        class="flex-col mt-4 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-20 md:mt-0 text-md"
       >
-        <li>
-          <NuxtLink
-            @click.prevent="scrollToSection('header')"
-            @click="toggleNav"
-            href="#header"
-            class="btn duration-200"
-          >
+        <li class="transform transition-transform duration-300 hover:-translate-y-1">
+          <NuxtLink @click.prevent="scrollToSection('header')" @click="toggleNav" href="#header" class="duration-200">
             Accueil
           </NuxtLink>
         </li>
-        <li>
-          <a
-            @click.prevent="scrollToSection('abilities')"
-            @click="toggleNav"
-            href="#abilities"
-            class="btn duration-200"
-          >
+        <li class="transform transition-transform duration-300 hover:-translate-y-1">
+          <a @click.prevent="scrollToSection('about')" @click="toggleNav" href="#about" class="duration-200">
+            A propos
+          </a>
+        </li>
+        <li class="transform transition-transform duration-300 hover:-translate-y-1">
+          <a @click.prevent="scrollToSection('abilities')" @click="toggleNav" href="#abilities" class="duration-200">
             Compétences
           </a>
         </li>
-        <li>
-          <a
-            @click.prevent="scrollToSection('portfolio')"
-            @click="toggleNav"
-            href="#portfolio"
-            class="btn duration-200"
-          >
-            Portfolio
+        <li class="transform transition-transform duration-300 hover:-translate-y-1">
+          <a @click.prevent="scrollToSection('portfolio')" @click="toggleNav" href="#portfolio" class="duration-200">
+            Projets
           </a>
         </li>
-        <li>
-          <a @click.prevent="scrollToSection('contact')" @click="toggleNav" href="#contact" class="btn duration-200">
+        <li class="transform transition-transform duration-300 hover:-translate-y-1">
+          <a @click.prevent="scrollToSection('contact')" @click="toggleNav" href="#contact" class="duration-200">
             Contact
           </a>
         </li>
       </ul>
     </nav>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

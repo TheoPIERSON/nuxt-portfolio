@@ -20,6 +20,7 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@iconify-json/fontisto": "^1.2.1",
     "@iconify-json/majesticons": "^1.2.1",
     "@types/aos": "^3.0.7"
   }
