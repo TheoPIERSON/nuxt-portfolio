@@ -12,15 +12,15 @@
     <div :class="{ 'fade-in-delayed': isVisible }" class="flex mt-10">
       <a
         class="bg-zinc-800 p-4 px-5 text-xl text-white rounded-lg mr-8 hover:bg-white hover:text-black border-2 border-black"
-        @click.prevent="scrollToSection('portfolio')"
-        href="#portfolio"
+        @click.prevent="scrollToSection('contact')"
+        href="#contact"
       >
         Infos de contact
       </a>
       <a
         class="bg-zinc-800 p-4 px-5 text-xl text-white rounded-lg hover:bg-white hover:text-black border-2 border-black"
-        @click.prevent="scrollToSection('contact')"
-        href="#contact"
+        href="/CV-TheoPierson.pdf"
+        download="CV-TheoPierson.pdf"
         >Télécharger CV</a
       >
     </div>
