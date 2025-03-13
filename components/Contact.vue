@@ -1,5 +1,5 @@
 <template>
-  <h2 id="contact" :class="{ 'fade-in': isVisible }" class="text-5xl md:text-6xl mt-20">Mes infos de contact</h2>
+  <h2 id="contact" :class="{ 'fade-in': isVisible }" class="text-5xl mt-20">Mes infos de contact</h2>
   <footer class="grid md:flex mt-20 pb-32">
     <div class="text-center w-full grid">
       <h3 class="pb-2">Vous souhaitez me parler d'un projet ou d'une opportunité ?</h3>

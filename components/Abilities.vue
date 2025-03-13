@@ -1,14 +1,14 @@
 <template>
-  <h2 :class="{ 'fade-in': isVisible }" class="text-6xl mt-20">Mes compétences</h2>
+  <h2 :class="{ 'fade-in': isVisible }" class="text-5xl mt-20">Mes compétences</h2>
 
   <section id="abilities" class="grid mt-10 mb-7">
     <div class="md:grid w-full">
-      <h3 class="text-2xl font-semibold m-1 mb-5 p-10">Développement Frontend</h3>
-      <div class="md:flex justify-center font-CourierPrime" id="cards" data-aos="fade-left">
+      <h3 class="text-2xl font-semibold mb-5 p-1 md:p-10">Développement Frontend</h3>
+      <div class="md:flex justify-center" id="cards" data-aos="fade-left">
         <TechCard />
       </div>
-      <h3 class="text-2xl font-semibold m-1 mb-5 p-10">Backend, Base de données et DevOps</h3>
-      <div class="md:flex justify-center font-CourierPrime" id="cards" data-aos="fade-left">
+      <h3 class="w-3/4 text-2xl font-semibold mb-5 p-1 md:p-10">Backend, Base de données et DevOps</h3>
+      <div class="md:flex justify-center" id="cards" data-aos="fade-right">
         <TechCardBackend />
       </div>
     </div>

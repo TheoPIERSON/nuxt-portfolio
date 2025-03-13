@@ -1,6 +1,6 @@
 <template>
-  <section class="flex">
-    <div class="flip-card m-8">
+  <section class="grid grid-cols-2 w-screen md:w-auto gap-0 md:flex">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="java.svg" alt="logo Java" />
@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="spring-icon.svg" alt="logo Spring Boot" />
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="postgresql.svg" alt="logo PostgreSQL" />
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="LogoDocker.svg" alt="logo Docker" />

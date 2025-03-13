@@ -1,6 +1,6 @@
 <template>
-  <section class="flex">
-    <div class="flip-card m-8">
+  <section class="grid grid-cols-2 w-screen md:w-auto gap-0 md:flex">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="angular-icon.svg" alt="logo Angular" />
@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="nuxt-icon.svg" alt="logo Angular" />
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="nextjs-icon.svg" alt="logo Angular" />
@@ -37,7 +37,19 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <NuxtPicture src="tailwindcss-icon.svg" alt="logo Angular" />
+        </div>
+        <div class="flip-card-back">
+          <p class="title">Tailwind</p>
+          <p>Expérience:</p>
+          <p>Depuis 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <NuxtPicture src="typescript-icon.svg" alt="logo Angular" />
@@ -49,15 +61,15 @@
         </div>
       </div>
     </div>
-    <div class="flip-card m-8">
+    <div class="flip-card md:m-8">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <NuxtPicture src="tailwindcss-icon.svg" alt="logo Angular" />
+          <NuxtPicture src="JavaScript.svg" alt="logo Angular" />
         </div>
         <div class="flip-card-back">
-          <p class="title">Tailwind</p>
+          <p class="title">TypeScript</p>
           <p>Expérience:</p>
-          <p>Depuis 2024</p>
+          <p>Depuis 2023</p>
         </div>
       </div>
     </div>

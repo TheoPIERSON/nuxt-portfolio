@@ -1,5 +1,5 @@
 <template>
-  <h2 :class="{ 'fade-in': isVisible }" class="text-6xl mt-20">Mon profil</h2>
+  <h2 :class="{ 'fade-in': isVisible }" class="text-5xl mt-20">Mon profil</h2>
 
   <section id="about" class="grid md:flex place-items-center md:w-screen">
     <NuxtImg
