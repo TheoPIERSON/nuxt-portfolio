@@ -33,10 +33,10 @@
       <div class="flip-card-inner">
         <div class="flip-card-front grid place-items-center text-9xl border-2 border-black rounded-lg">
           <Icon name="hugeicons:dumbbell-03" />
-          <h3 class="font-semibold text-xl">Début de parcours professionel</h3>
+          <h3 class="font-semibold text-xl">Début de parcours professionnel</h3>
         </div>
         <div class="flip-card-back border-2 border-black rounded-lg">
-          <p class="title">Début de parcours professionel</p>
+          <p class="title">Début de parcours professionnel</p>
           <p class="text-center p-4">
             Mes débuts en développement ont été marqués par des projets explorant diverses technologies front et
             back-end. Aujourd'hui, je me spécialise dans des outils modernes comme Vue.js, NuxtJs et Angular pour créer
@@ -50,10 +50,10 @@
       <div class="flip-card-inner">
         <div class="flip-card-front grid place-items-center text-9xl border-2 border-black rounded-lg">
           <Icon name="game-icons:tie" />
-          <h3 class="font-semibold text-xl">Expérience professionlle</h3>
+          <h3 class="font-semibold text-xl">Expérience professionelle</h3>
         </div>
         <div class="flip-card-back border-2 border-black rounded-lg">
-          <p class="title">Expérience professionlle</p>
+          <p class="title">Expérience professionelle</p>
           <p class="text-center p-4">
             En tant que développeur web, j'ai acquis une expérience significative au fil des projets, toujours animé par
             la volonté de répondre aux besoins spécifiques de mes clients et de leur offrir des solutions sur mesure.
