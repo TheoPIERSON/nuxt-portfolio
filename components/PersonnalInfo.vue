@@ -3,9 +3,9 @@
     <h1 :class="{ 'fade-in': isVisible }" class="text-5xl md:text-6xl">
       Hello, moi c'est Theo <Icon name="la:hand-peace" />
     </h1>
-    <h2 :class="{ 'fade-in': isVisible }" class="text-2xl md:text-4xl mt-10">------ Développeur Full Stack</h2>
+    <h2 :class="{ 'fade-in': isVisible }" class="text-2xl md:text-4xl mt-10">------ Développeur Web</h2>
     <p :class="{ 'fade-in-delayed': isVisible }" class="text-lg mt-10">
-      Salut, je suis un développeur Full Stack basé en France et <br />
+      Salut, je suis un Développeur Web basé en France et <br />
       je suis très passionné et dédié à mon travail.
     </p>
 

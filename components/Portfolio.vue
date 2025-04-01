@@ -2,7 +2,59 @@
   <section id="portfolio">
     <h2 :class="{ 'fade-in': isVisible }" class="text-5xl mt-20 mb-10">Mon portfolio</h2>
 
-    <!-- Container des images et texte -->
+    <!-- Container DOMAINE DE LEVIDENCE -->
+    <div class="w-full flex flex-col md:flex-row md:p-2 my-10" data-aos="fade-right">
+      <!-- Container des images (50% en desktop) -->
+      <div class="md:hidden relative w-full md:w-1/2" id="Domaine">
+        <NuxtImg
+          alt="Capture d'écran du site Domaine de l'Evidence"
+          src="domaine1.png"
+          class="relative top-0 left-0 w-full transition-opacity duration-300"
+        />
+        <NuxtImg
+          alt="Capture d'écran du site Domaine de l'Evidence"
+          src="domaine2.png"
+          class="absolute top-0 left-0 w-full opacity-0 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+      <!-- Container du texte (50% en desktop) -->
+      <div class="w-full md:w-1/2 flex items-center">
+        <div class="md:pl-3 lg:pl-6">
+          <h3 class="font-semibold text-lg">
+            <a href="https://domaine-de-l-evidence.vercel.app/room/bain-nordique">Le Domaine de l'Evidence</a>
+          </h3>
+          <p class="mt-5 mb-2">Site vitrine simple et animé pour une maison d'hôte.</p>
+          <p>
+            Ce site permet de mettre en avant une maison d'hôte en présentant les chambres, les prestations proposées
+            ainsi que les activités à proximité. Le site est entièrement responsive et s'adapte à tous les écrans. Il
+            est également optimisé pour le référencement naturel (SEO) afin de permettre à la maison d'hôte d'être
+            visible sur les moteurs de recherche. Le site redirige vers le site de réservation.
+          </p>
+          <p class="font-medium mt-3">Stack utilisée:</p>
+          <p class="flex">
+            <NuxtPicture alt="Icone Nuxt" src="nuxt-icon.svg" width="40px" class="m-1 p-1" />
+            <NuxtPicture alt="Icone TypeScript" src="typescript-icon.svg" width="40px" class="m-1 p-1" />
+            <NuxtPicture alt="Icone Tailwind" src="tailwindcss-icon.svg" width="40px" class="m-1 p-1" />
+          </p>
+        </div>
+      </div>
+      <!-- Container des images (50% en desktop) -->
+      <div class="hidden md:block relative w-full md:w-1/2" id="Domaine de l'Evidence">
+        <NuxtImg
+          alt="Capture d'écran du site Domaine de l'Evidence"
+          src="domaine1.png"
+          class="relative top-0 left-0 w-full transition-opacity duration-300"
+        />
+        <NuxtImg
+          alt="Capture d'écran du site Domaine de l'Evidence"
+          src="domaine2.png"
+          class="absolute top-0 left-0 w-full opacity-0 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+    </div>
+    <!-- Fin du Container des images et texte -->
+
+    <!-- Container ONYX INSTITUT -->
     <div class="w-full flex flex-col md:flex-row md:p-2 my-10" data-aos="fade-left">
       <!-- Container des images (50% en desktop) -->
       <div class="relative w-full md:w-1/2" id="Onyx Institut">
@@ -44,7 +96,7 @@
     </div>
     <!-- Fin du Container des images et texte -->
 
-    <!-- Container des images et texte -->
+    <!-- Container MASPHOTO -->
     <div class="w-full flex flex-col md:flex-row md:p-2 my-10" data-aos="fade-right">
       <!-- Container des images (50% en desktop) -->
       <div class="md:hidden relative w-full md:w-1/2" id="MasPhoto">
