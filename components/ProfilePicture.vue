@@ -20,7 +20,7 @@
     </svg>
 
     <!-- Image avec dimensions adaptées -->
-    <NuxtImg width="450px" height="550px" src="profilepic.jpeg" alt="" class="ink-blob-image object-cover" />
+    <NuxtImg width="450px" height="550px" src="/profilepic.jpeg" alt="" class="ink-blob-image object-cover" />
   </div>
 </template>
 
