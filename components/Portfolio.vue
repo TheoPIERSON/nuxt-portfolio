@@ -114,7 +114,7 @@
       <!-- Container du texte (50% en desktop) -->
       <div class="w-full md:w-1/2 flex items-center">
         <div class="md:pl-3 lg:pl-6">
-          <h3 class="font-semibold text-lg"><a href="">Mas Photo</a></h3>
+          <h3 class="font-semibold text-lg"><a href="mas-photo.netlify.app">Mas Photo</a></h3>
           <p class="mt-5 mb-2">Portfolio simple et animé pour un mannequin.</p>
           <p>
             Ce portfolio permet à un mannequin de présenter ses photos et mettre en avant son travail ainsi que de se
@@ -157,7 +157,7 @@
       <!-- Container du texte (50% en desktop) -->
       <div class="w-full md:w-1/2 flex items-center">
         <div class="md:pl-3 lg:pl-6">
-          <h3 class="font-semibold text-lg"><a href="">UFC Vs</a></h3>
+          <h3 class="font-semibold text-lg"><a href="ufc-vs.vercel.app">UFC Vs</a></h3>
           <p class="mt-5 mb-2">Mini jeu sur le thème de l'UFC.</p>
           <p>
             Mini-jeu web sous forme de quizz mettant en scène deux combattants de l'UFC. Le joueur doit choisir quel
@@ -192,7 +192,14 @@
       <!-- Container du texte (50% en desktop) -->
       <div class="w-full md:w-1/2 flex items-center">
         <div class="md:pl-3 lg:pl-6">
-          <h3 class="font-semibold text-lg">Do Bronx MMA</h3>
+          <h3 class="font-semibold text-lg">
+            <a
+              href="do-bronx-mma.vercel.app
+"
+            >
+              Do Bronx MMA</a
+            >
+          </h3>
           <p class="mt-5 mb-2">Site vitrine pour une association sportive.</p>
           <p>
             Site vitrine pour une association sportive de MMA. Le site permet de présenter l'association, les cours et
@@ -240,7 +247,14 @@
       <!-- Container du texte (50% en desktop) -->
       <div class="w-full md:w-1/2 flex items-center">
         <div class="md:pl-3 lg:pl-6">
-          <h3 class="font-semibold text-lg">Chef Pro 360</h3>
+          <h3 class="font-semibold text-lg">
+            <a
+              href="chef-pro-360.vercel.app
+"
+            >
+              Chef Pro 360</a
+            >
+          </h3>
           <p class="mt-5 mb-2">Landing page mettant en avant un produit.</p>
           <p>
             Cette landing page a pour but de mettre en avant un nouveau type de couteau de cuisine. La page permet de
